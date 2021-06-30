@@ -214,4 +214,43 @@ public class Tienda {
 			}
 			
 			break;
-		
+		case 2:
+			System.out.println("**************************");
+			System.out.println("           ENVIO          " );
+			System.out.println("**************************");
+			System.out.println();
+			System.out.println("Ingrese su nombre : ");
+			String nom1 = s.next();
+			System.out.println("Bienvenido, " + nom1);
+			System.out.println();
+			System.out.println("Ingrese la fecha de su compra : ");
+			String Fecha = s.next();
+			System.out.println("4 Pacas de Juguetes Nuevos\n  Hora del Pedido: 18:05:02\n Su envio esta por llegar :)\n Gracias por su paciencia." + Fecha);
+			break;
+		case 3:
+			System.out.println("**************************");
+			System.out.println("         DEVOLUCION       " );
+			System.out.println("**************************");
+			System.out.println();
+			System.out.println("Ingrese la calidad de la Paca que desea devolver(Nuevo,Semi-nuevo,Usados) : ");
+			String Paca = s.next();
+			System.out.println("La paca de : " + Paca);
+			System.out.println("Sera devuelta con su dinero...");
+			System.out.println();
+			System.out.println("Gracias por Preferirnos.");
+			break;
+		case 4:
+			System.out.println("**************************");
+			System.out.println("         CATALOGO         " );
+			System.out.println("**************************");
+			
+			String Juguetes[] = {"1.Usados = 750C$","2.Nuevos = 1200C$","3.Semi-Nuevos = 850C$"};
+			for(int i =0 ; i<Juguetes.length;i++) {
+				System.out.println("Juguetes " + Juguetes[i]);
+			}
+			System.out.println("Gracias por Preferirnos.");
+			break;
+		}
+	}
+	
+}
