@@ -142,10 +142,6 @@ public class Tienda {
 		}
 	}//final metodo empleador
 	public void Usuario() {
-		System.out.println("Ingrese su nombre: ");
-		String nom = s.next();
-		System.out.println("Bienvenido, " + nom);
-		System.out.println();
 		System.out.println(" Que Desea hacer: ");
 		String Compras[] = {"1.Comprar","2.Ver mi envio","3.Devolucion","4.Catalogo"};
 		for(int i = 0 ; i<Compras.length;i++) {
